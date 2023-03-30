@@ -304,6 +304,7 @@ form.sign-in-form {
     justify-content: space-around;
     padding: 1.5rem 4%;
     grid-column: 1 / 2;
+    
   }
 
   .right-panel {
@@ -328,12 +329,12 @@ form.sign-in-form {
   }
 
   .panel h3 {
-    font-size: 25px;
-    color: red;
+    font-size: 1.3rem;
+    color: rgb(21, 110, 13);
   }
 
   .panel p {
-    font-size: 10px;
+    font-size: 0.7rem;
     padding: 0.5rem 0;
   }
 
@@ -344,8 +345,8 @@ form.sign-in-form {
   }
 
   .container:before {
-    width: 1600px;
-    height: 1500px;
+    width: 1500px;
+    height: 800px;
     transform: translateX(-50%);
     left: 30%;
     bottom: 68%;
@@ -402,7 +403,7 @@ form.sign-in-form {
   }
 
   .container.sign-up-mode:before {
-    bottom: 28%;
+    bottom: 25%;
     left: 50%;
   }
 
@@ -412,20 +413,33 @@ form.sign-in-form {
   }
 
   .panel p {
-    font-size: 9.5px;
-    padding: 0.5rem 0;
+    display: none;
+  }
+
+  .sign-up-form{
+    width: 100%;
+    top: 95%;
+    transform: translate(0%, 0%);
+    transition: 1s 0.8s ease-in-out;
   }
 }
 
 @media (max-width: 410px){
   .panel h3 {
-    font-size: 17px;
+    font-size: 20px;
     color: rgb(26, 91, 231);
     font-weight: 700;
   }
-
-  .panel p {
-    font-size: 8px;
-    padding: 0.5rem 0;
+  .sign-up-form{
+    width: 100%;
+    top: 95%;
+    transform: translate(0%, 20%);
+    transition: 1s 0.8s ease-in-out;
+  }
+  .sign-in-form{
+    width: 100%;
+    top: 95%;
+    transform: translate(0%, -15%);
+    transition: 1s 0.8s ease-in-out;
   }
 }
