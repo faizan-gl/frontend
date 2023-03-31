@@ -71,11 +71,9 @@ export const LoginRegister = () => {
         <div className="panels-container">
           <div className="panel left-panel">
             <div className="content">
-              <h3>New here ?</h3>
+              <h3>Are you new here?</h3>
               <p>
-                Do consectetur magna nisi velit ad consequat sunt. Qui sint quis
-                quis incididunt do proident deserunt. Duis dolor ut consequat
-                veniam Lorem consectetur enim sit nisi.
+                Twitter-based flood aid and rescue system enables people to tweet their location and assistance needs providing crucial help to rescue teams.
               </p>
               <button className={`btn transparent`} id="sign-up-btn" onClick={signupHandler} >
                 Sign up
@@ -85,13 +83,9 @@ export const LoginRegister = () => {
           </div>
           <div className="panel right-panel">
             <div className="content">
-              <h3>One of us ?</h3>
+              <h3>Have you registered already?</h3>
               <p>
-                Anim veniam laborum ullamco ex adipisicing dolore cupidatat
-                commodo eiusmod Lorem aliqua magna eu dolor. Nostrud ea in minim
-                consectetur minim ullamco. Veniam in voluptate eiusmod nisi
-                officia ea quis labore. Laborum et eiusmod nisi id nulla irure
-                sit magna sunt.
+                Our Twitter-based flood aid system uses real-time mapping to aid rescue teams in reaching those in need during floods.
               </p>
               <button className={`btn transparent  `} id="sign-in-btn" onClick={signupHandler} >
                 Sign in 

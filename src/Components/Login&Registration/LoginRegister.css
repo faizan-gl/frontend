@@ -213,7 +213,7 @@ form.sign-in-form {
 }
 
 .panel .content p {
-  font-size: 0.95 rem;
+  font-size: 1.1rem;
   padding: 0.7 rem 0;
 }
 
@@ -329,12 +329,12 @@ form.sign-in-form {
   }
 
   .panel h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: rgb(21, 110, 13);
   }
 
   .panel p {
-    font-size: 0.7rem;
+    font-size: 0.8rem !important;
     padding: 0.5rem 0;
   }
 
@@ -408,32 +408,38 @@ form.sign-in-form {
   }
 
   .panel h3 {
-    font-size: 20px;
+    font-size: 1.2rem;
     color: red;
   }
 
   .panel p {
-    display: none;
+    display: none !important;
   }
 
   .sign-up-form{
     width: 100%;
     top: 95%;
-    transform: translate(0%, 0%);
+    transform: translate(0%, 20%);
+    transition: 1s 0.8s ease-in-out;
+  }
+  .sign-in-form{
+    width: 100%;
+    top: 95%;
+    transform: translate(0%, -15%);
     transition: 1s 0.8s ease-in-out;
   }
 }
 
 @media (max-width: 410px){
   .panel h3 {
-    font-size: 20px;
+    font-size: 1.2rem;
     color: rgb(26, 91, 231);
     font-weight: 700;
   }
   .sign-up-form{
     width: 100%;
     top: 95%;
-    transform: translate(0%, 20%);
+    transform: translate(0%, 15%);
     transition: 1s 0.8s ease-in-out;
   }
   .sign-in-form{
