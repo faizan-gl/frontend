@@ -431,7 +431,6 @@ form.sign-in-form {
 @media (max-width: 410px){
   .panel h3 {
     font-size: 1.2rem;
-    color: rgb(26, 91, 231);
     font-weight: 700;
   }
   .sign-up-form{
