@@ -214,7 +214,7 @@ form.sign-in-form {
 
 .panel .content p {
   font-size: 1.1rem;
-  padding: 0.7 rem 0;
+  padding: 15px 0 10px 0;
 }
 
 .btn.transparent {
@@ -330,7 +330,6 @@ form.sign-in-form {
 
   .panel h3 {
     font-size: 1.4rem;
-    color: rgb(21, 110, 13);
   }
 
   .panel p {
@@ -409,7 +408,6 @@ form.sign-in-form {
 
   .panel h3 {
     font-size: 1.2rem;
-    color: red;
   }
 
   .panel p {
@@ -419,7 +417,7 @@ form.sign-in-form {
   .sign-up-form{
     width: 100%;
     top: 95%;
-    transform: translate(0%, 20%);
+    transform: translate(0%, 0%);
     transition: 1s 0.8s ease-in-out;
   }
   .sign-in-form{
@@ -439,7 +437,7 @@ form.sign-in-form {
   .sign-up-form{
     width: 100%;
     top: 95%;
-    transform: translate(0%, 15%);
+    transform: translate(0%, 0%);
     transition: 1s 0.8s ease-in-out;
   }
   .sign-in-form{
